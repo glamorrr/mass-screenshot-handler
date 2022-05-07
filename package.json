@@ -1,0 +1,18 @@
+{
+  "name": "yey",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src \"$npm_config_imagesFolder\" \"$npm_config_PDFName\""
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "imagemin": "^8.0.1",
+    "imagemin-jpegtran": "^7.0.0",
+    "imagemin-pngquant": "^9.0.2",
+    "pdfkit": "^0.12.3"
+  }
+}
